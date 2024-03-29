@@ -914,6 +914,9 @@
     <!-- Povray script -->
     <datatype extension="pov" type="galaxy.datatypes.text:Text" subclass="true" display_in_upload="true"/>
     <!-- End Structural Materials datatypes -->
+        <!-- PPP datatypes -->
+    <datatype extension="model" type="galaxy.datatypes.ppp:Model" display_in_upload="true" />
+    <!-- End PPP datatypes -->
   </registration>
   <sniffers>
     <!--

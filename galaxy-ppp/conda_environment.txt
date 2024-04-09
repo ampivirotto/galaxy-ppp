@@ -1,0 +1,8 @@
+conda create --name testEnv python=3.7 pandas biopython numpydoc matplotlib rpy2 scikit-learn cython
+conda activate testEnv
+conda install -c bioconda tabix
+conda install -c bioconda bcftools
+conda install -c bioconda vcftools
+conda install -c bioconda pysam
+conda install -c bioconda pybedtools
+conda install -c dranew shapeit
